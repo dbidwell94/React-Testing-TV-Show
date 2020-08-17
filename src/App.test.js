@@ -602,6 +602,4 @@ test("It renders App", async () => {
   expect(chapters).toHaveLength(8);
 
   expect(sThings).toBeInTheDocument();
-
-  screen.debug();
 });
