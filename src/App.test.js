@@ -587,6 +587,7 @@ const returnedData = {
 mockGetShows.mockResolvedValueOnce(returnedData);
 
 test("It renders App", async () => {
+    
   await act(async () => await render(<App />));
 
   const sThings = screen.getByTestId(/showname/i);
